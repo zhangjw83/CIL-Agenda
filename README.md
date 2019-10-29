@@ -90,6 +90,7 @@ Flags:
   -p, --password string   Help message for username
   -t, --phone string      Phone
   -u, --user string       Username
+
 登录
 Flags:
   -p, --password string   Input password
