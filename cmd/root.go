@@ -74,4 +74,4 @@ func init() {
 
 	RootCmd.PersistentFlags().BoolP("debug", "d", false, "display log message")
 }
-© 2019 GitHub, Inc.
+
