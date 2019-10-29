@@ -79,8 +79,18 @@ Agenda 业务需求
 #### 测试
 **注册**
 > ./Agenda-golang register -u zhangjw83 -p 963214785 -m www.qq.com -t 963214785
+
 **登录**
 > ./Agenda-golang login -u zhangjw83 -p 963214785
 
-#### 结果
-由于实现功能较少，测试比较简单
+一些flags
+注册
+Flags:
+  -m, --mail string       email.
+  -p, --password string   Help message for username
+  -t, --phone string      Phone
+  -u, --user string       Username
+登录
+Flags:
+  -p, --password string   Input password
+  -u, --user string       Input username
